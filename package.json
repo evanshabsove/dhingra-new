@@ -1,0 +1,15 @@
+{
+  "name": "dhingra_new",
+  "version": "1.0.0",
+  "description": "This is a static web application that loads Bootstrap from CDN and supports auto-reloading during development.",
+  "main": "main.js",
+  "scripts": {
+    "start": "live-server public --open=index.html --watch=public/index.html,main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
