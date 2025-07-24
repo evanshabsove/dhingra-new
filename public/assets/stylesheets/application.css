@@ -1,0 +1,719 @@
+* {
+  font-family: 'Lato', serif;
+}
+
+.painting-show-container {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 66px;
+}
+.painting-show-picture-container {
+  padding-top: 4vh;
+  margin-left: 3vw;
+  display: inline-block;
+}
+.painting-show-picture {
+  max-width: 60vw;
+  max-height: 60vh;
+}
+.painting-show-title-container {
+  margin-left: 2vw;
+  width: 32vw;
+  margin-right: 2.5vw;
+  left: 0;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 4vh;
+}
+.painting-show-title {
+margin: 0;
+}
+.painting-show-description {
+float: right;
+width: 32vw;
+margin-top: 3vh;
+}
+.painting-show-interested {
+  display: inline-block;
+}
+.contact-me-span {
+  color: #00a0b3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .painting-show-picture-container {
+      padding-top: 4vh;
+      display: block;
+      margin-left: 0px;
+      text-align: center;
+  }
+  .painting-show-picture {
+      max-width: 90vw;
+      max-height: 90vh;
+  }
+  .painting-show-title-container {
+    margin-left: 5vw;
+    width: 90vw;
+    padding-top: 4vh;
+  }
+  .painting-show-description {
+      width: 90vw;
+      margin-top: 3vh;
+  }
+}
+
+nav.navbar {
+  border-color: transparent;
+  margin-bottom: 0 !important;
+  width: 100% !important;
+  z-index: 100 !important;
+}
+
+nav.navbar-default {
+  background-color: transparent;
+}
+
+.navbar {
+  border-radius: 0 !important;
+  padding-bottom: 0.5em !important;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar.transparent.navbar-default {
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0, 0, 0, 0.0);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+
+#main-title {
+  h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+  .gallery-cursive {
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+    font-size: 28px;
+    margin-bottom: 2.5vh;
+  }
+}
+
+.header-section.container-fluid {
+  width: 100%;
+  padding: 0;
+}
+
+div.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+.home-page {
+  height: 75vh;
+  background: url(../images/fullsize-6.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opening-title {
+  font-family: "Lato";
+  margin-bottom: 12vh;
+  text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.47);
+}
+
+.home-page-link {
+  font-family: "Lato";
+  font-weight: 300;
+  border: 3px solid white;
+  padding: 5px;
+  text-decoration: none !important;
+  border-radius: 2px;
+  background-color: rgba(80, 80, 80, 0.16);
+  transition: background-color 0.2s ease;
+}
+
+.home-page-link:hover {
+  background-color: rgba(80, 80, 80, 0.8);
+  color: white;
+}
+
+div.home-container {
+  padding: 0;
+}
+
+.home-column {
+  text-align: center;
+  height: 378px;
+
+  h1 {
+    font-size: 8em;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  a {
+    font-size: 3em;
+    color: white;
+  }
+}
+
+.first-photo {
+  margin-left: 50px;
+}
+
+.quick-about {
+  padding-top: 10vh
+}
+
+.about-text-col {
+  margin-left: 15px;
+  background-color: #d3d3d3;
+  padding: 20px;
+
+  h1 {
+    margin-bottom: 25px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+}
+
+.about-image-col {
+  padding: 15px;
+  background-color: #d3d3d3;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.three-gallery {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+  .col-sm-12 {
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-column {
+    h1 {
+      font-size: 4em;
+    }
+
+    a {
+      font-size: 2em;
+    }
+  }
+
+  .about-text-col {
+    margin: 20px;
+  }
+}
+
+.modal-body-description {
+  margin-top: 20px;
+}
+
+.footer {
+  height: 30vh;
+  background: black;
+  color: #d3d3d3;
+}
+
+.footer-text {
+  margin-top: 4vh;
+
+  .call {
+    margin-top: 20px
+  }
+
+  .location {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: inherit;
+  }
+}
+
+.admin-container {
+  padding-top: 77px;
+}
+
+.admin-email {
+  width: 300px;
+}
+
+.dashboard-container {
+  padding-top: 77px;
+}
+
+.btn-space {
+  margin: 3px;
+}
+
+.new-gallery-container {
+  padding-top: 77px;
+}
+
+.edit-gallery-container {
+  padding-top: 77px;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.paintings-container {
+  padding-top: 77px;
+}
+
+.thumbnail {
+  max-width: 400px;
+}
+
+.edit-information-container {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+input.half-field {
+  width: 45%;
+  float: left;
+  margin: 1%;
+}
+
+.name-subject-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 46px;
+}
+
+.contact-email-container {
+  width: 73.7%;
+  margin-left: 10.8%;
+}
+
+.contact-text-col {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.contact-text-area-field {
+  width: 100%;
+  height: 31vh !important;
+  margin-bottom: 1%;
+}
+
+.contact-text-area {
+  width: 73.7%;
+  margin-left: 10.8%;
+}
+
+.thank-you-container {
+  padding-top: 77px;
+}
+
+.contact-information-container {
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+#british_columbia {
+  display: none;
+}
+
+#manitoba {
+  display: none;
+}
+
+#new_brunswick {
+  display: none;
+}
+
+#newfoundland_and_labrador {
+  display: none;
+}
+
+#northwest_territories {
+  display: none;
+}
+
+#nova_scotia {
+  display: none;
+}
+
+#nunavut {
+  display: none;
+}
+
+#ontario {
+  display: none;
+}
+
+#prince_edward_island {
+  display: none;
+}
+
+#quebec {
+  display: none;
+}
+
+#saskatchewan {
+  display: none;
+}
+
+#yukon_territory {
+  display: none;
+}
+
+#new_designs,
+#national_parks,
+#northern_ontario,
+#central_ontario,
+#southwestern_ontario,
+#eastern_ontario,
+#provincial_parks {
+  display: none;
+}
+
+@-moz-keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-webkit-keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+body {
+  background: black;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  margin-left: -20px;
+  margin-bottom: 50px;
+  width: 40px;
+  height: 40px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLju5bDAuMDAwYzIwLjE3OCwyMC4xNzksNTMuMTY0LDE5LjkxMyw3My42NzItMC41OTVsMCwwYzIwLjUwOSwyMC41MDgtMjAuNzcyLDUzLjQ5MiwwLjU5NSw3My42NzFMMjkwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  background-size: contain;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+.alan-image {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-container {
+  padding-top: 10vh;
+}
+
+.about-image {
+  padding: 20px;
+  background-color: #d3d3d3
+}
+
+.about-text {
+  margin: 5vh 0;
+}
+
+.event-breaker {
+  margin: 60px auto;
+  max-width: 50%;
+  border-width: 2px;
+  border-color: lightgrey;
+}
+
+.home-events-container h1 {
+  margin-top: 0px;
+}
+
+.gallery-index-container {
+  padding-top: 10vh;
+}
+
+.hover-title:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.hover-content {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.hover-content .hover-title {
+  font-size: 30px;
+  display: flex;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  vertical-align: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.center.slider {
+  margin-top: 0px;
+  padding-top: 14vh;
+  width: 85%;
+}
+
+.image-gallery:hover .hover-content {
+  font-size: 50px;
+}
+
+.image-gallery:hover {
+  cursor: pointer;
+}
+
+.gallery-painting {
+  max-height: 50vh !important;
+  width: auto;
+  cursor: pointer;
+  margin: auto;
+}
+
+.painting-image {
+  text-align: center;
+  max-height: 50vh !important;
+  width: auto;
+}
+
+.slick-track {
+  max-height: 50vh !important;
+}
+
+.gallery-painting-div {
+  opacity: 0;
+}
+
+h1.painting-title {
+  margin: 0;
+}
+
+.gallery-paintings-container {
+  padding-top: 77px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.painting-title-div {
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  margin-top: -52px;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+  background: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.46));
+  padding-left: 5px;
+  color: white;
+  line-height: 0;
+  display: none;
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.gallery-index-item {
+  opacity: 0;
+  position: relative !important;
+  padding: 0 !important;
+  margin: 1.665% !important;
+}
+
+.gallery-index-item .image-gallery {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .col-sm-4 {
+    width: 30% !important;
+  }
+}
+
+.painting-link {
+  text-decoration: none !important;
+}
+
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 10px 20px;
+}
+
+.slick-slide img {
+  transform: scale(0.9);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-dotted .slick-current img {
+  transform: scale(1.1);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: red !important;
+}
+
+button.slick-next,
+button.slick-prev {
+  margin-top: 50px;
+}
+
+.gallery-text {
+  display: none;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.contact-text {
+  margin-bottom: 5vh;
+}
+
+.contact-text h4 {
+  display: inline;
+  margin-right: 15px;
+}
+
+.gallery-container h2 {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.gallery-container .col-md-4 {
+  height: 420px;
+}
+
+.gallery-container figcaption {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+@media (max-width: 768px) {
+  .gallery-container .col-md-4 {
+    height: inherit;
+  }
+}
